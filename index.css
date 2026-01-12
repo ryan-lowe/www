@@ -1,7 +1,8 @@
 article {
   margin: 0 auto;
-  max-width: 800px;
-  padding: 40vh 0;
+  max-width: 650px;
+  padding: 20vh 20px 0;
+  font-size: 18px;
 
   color: var(--dark);
   isolation: isolate;
@@ -11,9 +12,25 @@ article a {
   color: var(--dark);
 }
 
+footer {
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.4;
+  color: var(--dark);
+}
+
+footer a {
+  color: var(--dark);
+}
+
 
 body {
-  --day: #fffdfa;
+  font-family: 'EB Garamond', serif;
+  --day: #fff8f0;
   --evening: #fccc83;
   --dusk: #db7a2a;
   --night: #0f131c;
@@ -191,8 +208,8 @@ body.dark {
   position: absolute;
   background-size: cover;
   background-repeat: no-repeat;
-  bottom: -20px;
-  right: -700px;
+  top: -100px;
+  right: -600px;
   width: 1600px;
   height: 1400px;
   background-image: url("./leaves.png");
