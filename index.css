@@ -197,7 +197,7 @@ body.dark {
 }
 
 .dark .perspective {
-  opacity: 0.3;
+  opacity: 0.4;
   transform: matrix3d(0.8333, 0.0833, 0.0000, 0.0003,
       0.0000, 1.0000, 0.0000, 0.0000,
       0.0000, 0.0000, 1.0000, 0.0000,
